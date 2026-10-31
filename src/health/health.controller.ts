@@ -12,7 +12,7 @@ export class HealthController {
         
       }
 
-    @Get('read')
+    @Get('ready')
     @HttpCode(HttpStatus.OK)
       getreadiness() {
         return {
